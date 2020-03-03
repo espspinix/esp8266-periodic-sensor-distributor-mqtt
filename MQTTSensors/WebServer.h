@@ -82,8 +82,8 @@ class WebServer {
 
   String formatDHTOutput(String temperature, String humidity){
     String output = ""
-      "" + headerHTML("DHT Sensor")
-      "" + sensorHTML(temperature, humidity)
+      "" + headerHTML("DHT Sensor Example") + ""
+      "" + sensorHTML("DHT Sensor", temperature, humidity) + ""
       "" + footerHTML();
     return output;
   }
