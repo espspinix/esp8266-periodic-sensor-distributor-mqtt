@@ -59,7 +59,7 @@ class WebServer {
     return output;
   }
 
-  String footerHtml() {
+  String footerHTML() {
     String output = ""
       "</body>\n"
       "</html>\n";
